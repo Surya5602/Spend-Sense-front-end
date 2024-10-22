@@ -1,0 +1,33 @@
+.CreditTab .header{
+    font-size: small;
+    font-weight: 600;
+    padding: 0.5em;
+}
+.CreditTab{
+    background-color: white;
+    margin-top: 1em;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.Details p{
+    margin: 0 0.5em;
+}
+.Amount{
+    color: red;
+}
+.Details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1em;
+}
+.comingSoonTab{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 1em;
+    height: 7em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

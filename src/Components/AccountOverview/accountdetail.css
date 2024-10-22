@@ -1,0 +1,57 @@
+.Accounts{
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.AccountDetail {
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  margin: 0;
+}
+.AccountDetail .notes {
+  width: 70%;
+}
+.AccountDetail .details,
+.noteDetials {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3em 0.2em 0.3em;
+}
+.AccountDetail .amount {
+  color: rgb(0, 221, 0);
+}
+.AccountDetail .noteDetials {
+  padding-right: 2em;
+}
+.noteDetials .three-dot {
+  cursor: pointer;
+}
+.noteDetials ul {
+  position: absolute;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+.noteDetials ul li {
+  width: 100%;
+  list-style: none;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 0.4em;
+}
+.editIcon {
+  position: relative;
+}
+.totalDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5px;
+}
+.totalDiv .balance {
+  color: rgb(0, 221, 0);
+}

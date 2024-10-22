@@ -1,0 +1,9 @@
+.accountMainDiv{
+    display: flex;
+    justify-content: center;
+}
+.errorMessage {
+    margin: 0;
+    font-size: 12px ;
+    color: red;
+}

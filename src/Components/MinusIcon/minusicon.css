@@ -1,0 +1,13 @@
+.minusIcon{
+    position: fixed;
+    height: 3em;
+    width: 3em;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 9%;
+    right: 8%;
+    border: 1px solid red;
+    border-radius: 50%;
+}

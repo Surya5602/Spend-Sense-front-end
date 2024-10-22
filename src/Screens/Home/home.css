@@ -1,0 +1,93 @@
+.homeComponent {
+  font-family: "Roboto", sans-serif;
+  background-color: #e2e2e2;
+  min-height: 100vh;
+}
+.homeComponent .firstRow {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.homeComponent .thirdRow,
+.homeComponent .secondRow {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 1em;
+  padding-bottom: 2em;
+}
+.homeComponent .thirdRow .transaction,
+.homeComponent .secondRow .Accounts {
+  margin-top: 0;
+}
+.secondRow .AccountDetail {
+  width: 100%;
+  gap: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: .3em;
+  background-color: white;
+}
+.secondRow .AccountDetail hr {
+  margin: 0;
+}
+.secondRow .Accounts {
+  background-color: white;
+}
+.secondRow .Accounts p {
+  padding: 0.6em 0 0 0.7em;
+  font-size: small;
+  margin: 0;
+  font-weight: 600;
+}
+
+.homeComponent .secondRow .transaction {
+  margin-right: 1em;
+}
+.chart {
+  margin-left: 1em;
+  border: 0.5px solid #e2e2e2;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.chart .pieDiagram {
+  width: 43%;
+}
+.chart .details {
+    width: 100%;
+}
+.chart .pieDiagram svg {
+  width: 100%;
+}
+.css-rbklcn-MuiResponsiveChart-container {
+  height: 150px !important;
+  width: 230px !important;
+}
+.details .month {
+  font-size: medium;
+  margin: 0.5em;
+  font-weight: 600;
+}
+.amount {
+  padding-right: 0.7em;
+  float: right;
+}
+.amount p {
+  margin: 0;
+}
+.amount hr {
+  margin: 0.4em 0;
+}
+
+.secondRow .cred-acc{
+  width: 50%;
+}
+.homeComponent .transaction{
+  margin-top: 0;
+  width: 50%;
+}

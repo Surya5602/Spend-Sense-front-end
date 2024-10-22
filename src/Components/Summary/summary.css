@@ -1,0 +1,49 @@
+.summary {
+  width: 33%;
+  border: 0.5px solid #e2e2e2;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+.summary .header {
+  border: none;
+  font-size: small;
+  margin: 0.5em;
+  font-weight: 600;
+}
+.summary .body {
+  background-color: white;
+}
+.summary .body p {
+  margin-bottom: 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.pRL {
+  padding: 0 0.5em 0.3em 0.5em;
+}
+.summary hr {
+  margin: 0;
+}
+.Balance {
+  float: right;
+  margin: 0.5em;
+  width: 40%;
+}
+.Balance p {
+  float: right;
+  margin-top: 0.5em;
+}
+.income .total {
+  color: green;
+}
+.expense .total {
+  color: red;
+}

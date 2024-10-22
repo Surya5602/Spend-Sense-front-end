@@ -1,0 +1,13 @@
+.calendar-com {
+  width: 70%;
+  margin: 0 auto;
+}
+.rs-calendar-table-cell-content {
+  height: 80px !important;
+}
+.expenseClass{
+    color: red;
+}
+.incomeClass{
+    color: green;
+}

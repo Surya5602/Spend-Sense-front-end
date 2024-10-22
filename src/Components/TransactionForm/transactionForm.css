@@ -1,0 +1,39 @@
+.transaction-form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100em;
+    background-color: white;
+}
+.redButton{
+    background-color: red;
+}
+.greenButton{
+    background-color: green;
+}
+.select-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+.select-category input , .select-category select{
+    border: 0.5px solid rgb(194, 194, 194);
+    background-color: white;
+}
+.subCategory{
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
+.MuiFormControl-root input{
+    padding: 0;
+    
+}
+.totalModal{
+    position: relative;
+}
+.subCategoryImage{
+    width: 3em;
+}
